@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Registration_win</class>
+ <widget class="QDialog" name="Registration_win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>413</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Регистрация</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton 
+{     
+background-color: #67BA80;  /* Цвет фона кнопки */    
+color: white;  /* Цвет текста */    
+border-radius: 5px;  /* Скругленные углы */ 
+}</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>202</width>
+     <height>335</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Роль</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_registr"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Логин</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_login_registr"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_password_registr"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>ФИО</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_fio_registr"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Телефон</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_telephone_registr"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_registr_user">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{     
+background-color: rgb(32, 170, 255);  /* Цвет фона кнопки */    
+color: white;  /* Цвет текста */    
+border-radius: 5px;  /* Скругленные углы */ 
+}</string>
+      </property>
+      <property name="text">
+       <string>Создать учетную запись</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_registration_f_autor">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{     
+background-color: rgb(32, 170, 255);  /* Цвет фона кнопки */    
+color: white;  /* Цвет текста */     border-radius: 5px;  /* Скругленные углы */ 
+}</string>
+      </property>
+      <property name="text">
+       <string>Авторизация</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

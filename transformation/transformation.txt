@@ -1,0 +1,37 @@
+pyuic5 .\QtDesign\Autorization.ui -o .\Gui_win\Autorization.py
+pyuic5 .\QtDesign\client_main.ui -o .\Gui_win\client_main.py
+pyuic5 .\QtDesign\Registration_win.ui -o .\Gui_win\Registration_win.py
+pyuic5 .\QtDesign\admin_win.ui -o .\Gui_win\admin_win.py
+pyuic5 .\QtDesign\masters_info.ui -o .\Gui_win\masters_info.py
+pyuic5 .\QtDesign\master_win.ui -o .\Gui_win\master_win.py
+pyuic5 .\QtDesign\components_inspection.ui -o .\Gui_win\components_inspection.py
+pyuic5 .\QtDesign\orders_history.ui -o .\Gui_win\orders_history.py
+pyuic5 .\QtDesign\master_order_work.ui -o .\Gui_win\master_order_work.py
+pyuic5 .\QtDesign\client_edit_application.ui -o .\Gui_win\client_edit_application.py
+
+
+
+
+
+
+
+
+pyuic5 .\QtDesign\Autorization_win.ui -o .\Gui_win\Autorization_win.py
+pyuic5 .\QtDesign\Registration_win.ui -o .\Gui_win\Registration_win.py
+pyuic5 .\QtDesign\Manager_win.ui -o .\Gui_win\Manager_win.py
+pyuic5 .\QtDesign\Partner_win.ui -o .\Gui_win\Partner_win.py
+pyuic5 .\QtDesign\Data_edit.ui -o .\Gui_win\Data_edit.py
+pyuic5 .\QtDesign\realisation_partner_products.ui -o .\Gui_win\realisation_partner_products.py
+pyuic5 .\QtDesign\add_partner.ui -o .\Gui_win\add_partner.py
+pyuic5 .\QtDesign\Products_type_method.ui -o .\Gui_win\Products_type_method.py
+
+
+
+Заменить обратные слэши на двойные обратные слэши \\.
+Использовать сырые строки, добавив префикс r перед строкой пути.
+Заменить обратные слэши на обычные прямые слэши /, которые Python также понимает.
+
+
+errors
+Аутентификация tuple indices must be integers or slices, not str
+
